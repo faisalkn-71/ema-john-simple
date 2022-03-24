@@ -5,7 +5,7 @@ import './Product.css'
 const Product = (props) => {
     const {product, handleAddToCart} = props
     const {name, img, ratings, seller, price} = product
-    console.log(props)
+    // console.log(props)
 
     
     return (
